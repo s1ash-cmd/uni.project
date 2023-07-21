@@ -1,0 +1,112 @@
+﻿@font-face {
+    font-family: 'Zector';
+    src: url(Zector.ttf) format('truetype');
+}
+
+.menu_head {
+    font-family: 'Zector', sans-serif;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: 150px;
+    left: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 270%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 10%;
+}
+
+body {
+    background-color: snow;
+}
+
+.menu_and_image_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; 
+}
+
+.menu_head {
+    font-family: 'Zector', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 270%;
+    display: flex;
+    align-items: center;
+    position:relative;
+    top: 0px;
+    left:-20px;
+}
+
+    .menu_head a {
+        color: Black;
+        text-decoration: none;
+    }
+
+        .menu_head a:hover {
+            color: #7A7A7A;
+        }
+
+.header img {
+    width: 500px; 
+    height: auto; 
+    padding-left:140px;
+}
+
+
+.uslugi {
+    font-family: 'Zector', sans-serif;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: 0px;
+    font-size: 350%;
+}
+
+.products-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color: White;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    text-align: center;
+}
+
+    .product img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+
+.nazvanie {
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.opisanie {
+    color: #666;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.cena {
+    font-size: 40px;
+}

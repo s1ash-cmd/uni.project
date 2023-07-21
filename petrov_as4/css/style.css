@@ -1,0 +1,68 @@
+﻿@font-face {
+    font-family: 'Zector';
+    src: url(Zector.ttf) format('truetype');
+}
+
+.menu_head {
+    font-family: 'Zector', sans-serif;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: 150px;
+    left: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 270%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 10%;
+}
+
+body {
+    background-color: snow;
+}
+
+.image-container {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    background-color: Snow;
+}
+
+.image-container img {
+    max-width: 100%;
+    display: block;
+    }
+
+.image2-container {
+    width: 100px;
+    position: relative;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 350px;
+    box-sizing: border-box;
+}
+
+.image2-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+
+.menu_head a {
+    color: Black;
+    text-decoration: none;
+}
+
+.menu_head a:hover {
+        color: #7A7A7A;
+    }
